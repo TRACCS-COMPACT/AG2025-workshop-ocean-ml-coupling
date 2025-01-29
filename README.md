@@ -8,11 +8,19 @@ Workshop requires specific dependencies. We provide container images from Apptai
 
 ### Apptainer for Linux
 
-    # For Ubuntu ONLY
-    # ---------------
+    # Ubuntu
+    # ------
     sudo apt update && sudo apt install -y software-properties-common
     sudo add-apt-repository -y ppa:apptainer/ppa
     sudo apt update && sudo apt install -y apptainer
+
+    # Debian (amd64 ONLY)
+    # -------------------
+    sudo apt update
+    sudo apt install -y wget
+    cd /tmp
+    wget https://github.com/apptainer/apptainer/releases/download/v1.3.6/apptainer_1.3.6_amd64.deb
+    sudo apt install -y ./apptainer_1.3.6_amd64.deb
 
 For other Linux distributions, please refer to this [guide](https://github.com/apptainer/apptainer/blob/main/INSTALL.md).
 
