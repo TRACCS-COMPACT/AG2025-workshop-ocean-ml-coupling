@@ -28,9 +28,14 @@ For other Linux distributions, please refer to this [guide](https://github.com/a
 
 Apptainer is available on macOS via LIMA (LInux virtual MAchines):
 
-    # Install brew
+    # Install with brew
+    # -----------------
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     brew install qemu lima
+
+    # Install with macports
+    # ---------------------
+    sudo port install qemu lima
 
 Create and run Linux VM with Apptainer:
 
