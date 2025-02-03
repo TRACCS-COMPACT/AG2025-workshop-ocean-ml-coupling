@@ -5,7 +5,7 @@ import argparse
 
 def ocean_info():
     # ocean namelist
-    nemo_nml = eophis.FortranNamelist('~/morays_tutorial/nemo_v4.2.1/cfgs/C1D_PAPA32/EXPREF/namelist_cfg')
+    nemo_nml = eophis.FortranNamelist('/home/jdoe/morays_tutorial/nemo_v4.2.1/cfgs/C1D_PAPA32/EXPREF/namelist_cfg')
 
     # step 1: define exchanges
     tunnel_config = list()
