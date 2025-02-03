@@ -31,8 +31,8 @@ def airseaflux(wnd,tair,sst,hum,slp):
         slp = slp.reshape(1)
 
         # compute Air Sea fluxes
-        res = AirSeaFluxCode( wnd, tair, sst, "...", meth="...", lat=np.array([50]), hum=['q', hum], P=slp, \  
-                              hin=10.0, maxiter=10, out_var = ( "tau", "latent", "sensible", "lv" ) 
+        res = AirSeaFluxCode( wnd, tair, sst, "...", meth="...", lat=np.array([50]), hum=['q', hum], P=slp, 
+                              hin=10.0, maxiter=10, out_var = ( "tau", "latent", "sensible", "lv" ) )
 
         # outputs: from 1D to 3D
         tau = np.array([res["tau"]]).reshape(1,1,1)
