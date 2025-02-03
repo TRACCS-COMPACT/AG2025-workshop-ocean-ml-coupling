@@ -56,7 +56,7 @@ def production():
 
     #  step 7: Time synchronization
     # ++++++++++++++++++++++++++++++
-    #@eophis.all_in_all_out( # ... )
+    @eophis.all_in_all_out( # ... )
     def loop_core(**inputs):
         
         # step 8: connect exchanged fields with ASFC
