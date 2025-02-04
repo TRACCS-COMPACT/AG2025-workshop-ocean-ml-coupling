@@ -62,7 +62,7 @@ Identify your hardware architecture (in VM)
     #  x86_64  --> amd64
     ARCH=arm64
 
-Download image
+Download image (for macOS: type "cd" to be in VM home or it won't work)
 
     wget https://github.com/morays-community/morays-doc/releases/download/containers/morays_env_${ARCH}.sif
 
