@@ -41,6 +41,8 @@ Create and run Linux VM with Apptainer:
 
     limactl start template://apptainer
     limactl shell apptainer
+    # IMPORTANT: type 'cd' to go in VM home, 'pwd' should return '/home/<your_name>.linux'
+    cd 
 
 Some optional tips:
 
