@@ -60,8 +60,8 @@ Some optional tips:
 Identify your hardware architecture (in VM)
 
     uname -m
-    #  aarch64 --> arm64
-    #  x86_64  --> amd64
+    #  aarch64, arm64 --> arm64
+    #  x86_64, amd64  --> amd64
     ARCH=arm64
 
 Download image (for macOS: type "cd" to be in VM home or it won't work)
