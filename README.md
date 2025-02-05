@@ -71,6 +71,7 @@ Download image (for macOS: type "cd" to be in VM home or it won't work)
 Run container
 
     apptainer run --writable-tmpfs --bind $(pwd):/home/jdoe/morays_tutorial morays_env_${ARCH}.sif
+    # should print " >>>> Welcome in Morays environment ! <<<< "
 
 ## Tutorial
 
