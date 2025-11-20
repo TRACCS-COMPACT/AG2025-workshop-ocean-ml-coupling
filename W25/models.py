@@ -17,7 +17,7 @@ from mlflux.ann_case import open_case
 # ============================= #
 # -- User Defined Parameters --
 # ============================= #
-weight_path = '~/morays_tutorial/W25/W25/weights'
+weight_path = '/home/jdoe/morays_tutorial/W25/W25/weights'
 
 # ++++++++++++++++++++++++++++ #
 #            Utils             #
