@@ -21,7 +21,7 @@ def ocean_info():
 
 
 def preproduction():
-    eophis.info('========= C1D_PAPA32.ASFC : Pre-Production =========')
+    eophis.info('========= C1D_PAPA32.W25 : Pre-Production =========')
     eophis.info('  Aim: write coupling namelist\n')
 
     # ocean info
@@ -36,7 +36,7 @@ def preproduction():
 
 
 def production():
-    eophis.info('========= C1D_PAPA32.ASFC : Production =========')
+    eophis.info('========= C1D_PAPA32.W25 : Production =========')
     eophis.info('  Aim: execute coupled simulation\n')
 
     #  Ocean Coupling
@@ -50,7 +50,7 @@ def production():
     # step 5: deploy OASIS interface
     # ...
 
-    #  step 6: import ASFC
+    #  step 6: import W25
     # +++++++++++++++++++++
     # ...
 
@@ -59,7 +59,7 @@ def production():
     #@eophis.all_in_all_out(  ... )
     def loop_core(**inputs):
         
-        # step 8: connect exchanged fields with ASFC
+        # step 8: connect exchanged fields with W25
         outputs = {}
         outputs['an_output'] = a_model( inputs['an_input'] )
         return outputs
